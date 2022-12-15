@@ -5,4 +5,9 @@
 // 782 -> 2
 // 918 -> 8
 
-Console.WriteLine("Ведите ");
+Console.WriteLine("Введите трехзначное число : ");
+int number = Convert.ToInt32(Console.ReadLine());
+if (number >= 100 && number <= 999)
+    Console.Write($"Последняя цифра в числе {number} равна {number % 10}");
+else
+    Console.Write("Вы ввели не трехзначное число");

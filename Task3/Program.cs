@@ -4,7 +4,7 @@
 // 5 -> Пятница
 
 Console.WriteLine("Введите целое число");
-string a = Console.ReadLine();
+string a = (Console.ReadLine());
 if (a == "1")
 {
     Console.WriteLine("Понедельник"); //
